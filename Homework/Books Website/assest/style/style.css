@@ -1,0 +1,106 @@
+html {
+    background-color: rgb(53, 0, 0);
+}
+
+body {
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #23011c63;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+h1 {
+    color: rgb(39, 0, 75);
+    background-color: rgba(173, 103, 67, 0.785);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h2 {}
+
+p {}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: thistle;
+}
+
+th,
+td {
+    border: 1px solid rgb(16, 15, 55);
+    padding: 8px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+ul li {
+    display: list-item;
+    margin: 0 10px;
+    text-align: center;
+
+}
+
+thead tr {
+    background-color: rgba(99, 54, 84, 0.458);
+    font-size: 18px;
+}
+
+p::first-letter {
+    font-size: 18px;
+    font-weight: bold;
+    color: #16303f;
+
+}
+
+form {
+    background-color: #a0a0a0;
+    padding: 30px;
+    border-radius: 20px;
+    width: 150px;
+    margin: 0 auto;
+    border: 2px solid #844e25;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #0077b6;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffefa8d0;
+    color: rgb(69, 5, 5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005f8a;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הסבר על CSS - שליו מליחי</title>
+    <link rel="stylesheet" href="assests/style.css/style.css">
+</head>
+
+<body>
+
+    <h1>הסבר על CSS</h1>
+
+    <h2>CSS Location</h2>
+    <p>
+        מיקום של קבצי ה-CSS יכול להיות בשני אופנים עיקריים:
+    <ul>
+        <li><strong>Inline CSS</strong>: כאשר ההגדרות נכתבות בתוך האלמנט עצמו בתוך קוד ה-HTML (לדוגמה:
+            <code>&lt;h1 style="color: blue;"&gt;</code>).
+        </li>
+        <li><strong>Internal CSS</strong>: כאשר ההגדרות נכתבות בתוך תגית <code>&lt;style&gt;</code> בתוך קובץ ה-HTML.
+        </li>
+        <li><strong>External CSS</strong>: כאשר ההגדרות נמצאות בקובץ נפרד עם סיומת <code>.css</code> ומקושרות לקובץ
+            ה-HTML באמצעות <code>&lt;link&gt;</code>.</li>
+    </ul>
+    </p>
+    <p>דוגמה ל-External CSS:</p>
+    <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+
+    <h2>CSS Selector</h2>
+    <p>
+        סלקטור ב-CSS הוא כלי שמאפשר לנו לבחור אלמנטים מסוימים ב-HTML וליישם עליהם עיצוב. קיימים סוגים רבים של סלקטורים,
+        כמו סלקטור לפי תגית, מחלקה, מזהה, או סלקטורים מורכבים יותר.
+    </p>
+    <p>דוגמה לסלקטור לפי מחלקה:</p>
+    <pre><code>.example-class { color: red; }</code></pre>
+
+    <h2>CSS Selector Exercise</h2>
+    <p>תרגול של סלקטורים ב-CSS כולל כתיבת סלקטורים שונים ולמידה כיצד לבחור אלמנטים בצורה מדויקת, כגון לפי תגית, מחלקה,
+        מזהה, או שילובים שונים של סלקטורים.</p>
+    <p>דוגמה לתרגול:</p>
+    <pre><code>&lt;div class="container"&gt;
+  &lt;p id="paragraph"&gt;This is a paragraph.&lt;/p&gt;
+  &lt;span class="highlight"&gt;Highlight this text.&lt;/span&gt;
+&lt;/div&gt;
+    </code></pre>
+    <p>סלקטורים לדוגמה עבור התרגול:</p>
+    <pre><code>p { color: blue; } /* בחירת כל הפסקאות */
+#paragraph { font-weight: bold; } /* בחירת אלמנט לפי מזהה */
+.highlight { background-color: yellow; } /* בחירת אלמנט לפי מחלקה */
+    </code></pre>
+
+    <footer>
+        <p>העורך: שליו מליחי</p>
+    </footer>
+
+</body>
+
+</html>

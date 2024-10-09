@@ -1,0 +1,25 @@
+style html,
+body {
+    text-align: center;
+    background-color: rgb(255, 221, 219);
+
+}
+
+h1 {
+    color: rgb(39, 0, 75);
+    background-color: rgba(255, 139, 139, 0.515);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+p {
+    color: rgba(57, 3, 97, 0.805);
+    font-size: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    font-size: 22px;
+    background-color: rgb(203, 142, 142);
+}

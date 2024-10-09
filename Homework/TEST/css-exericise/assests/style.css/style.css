@@ -1,0 +1,76 @@
+/* עיצוב כללי של הגוף */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    direction: rtl;
+}
+
+/* עיצוב הכותרות */
+h1,
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+/* עיצוב הפסקאות */
+p {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* עיצוב קופסאות קוד */
+pre {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+/* עיצוב ה- ul */
+ul {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    list-style-type: square;
+}
+
+/* עיצוב התחתית */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+/* צל על כל האלמנטים */
+p,
+pre,
+ul {
+    transition: all 0.3s ease;
+}
+
+p:hover,
+pre:hover,
+ul:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
