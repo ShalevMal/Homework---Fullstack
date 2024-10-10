@@ -1,0 +1,24 @@
+@font-face {
+font-family: 'ArtsyMorning';
+src: url(/assets/fonts/ArtsyMorning.otf);
+}
+
+.header-box {
+    font-family: artsymorning; 
+    background: linear-gradient(45deg, #bdba1c, black, #e00404, #530fa6); 
+    color: white; 
+    border: 2px solid #2c3e50; 
+    border-radius: 15px; 
+    padding: 20px; 
+    text-align: center; 
+    width: 40%; 
+    margin: 200px auto; 
+    font-size: 24px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 1.5); 
+    animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); } /* התחלה ללא סיבוב */
+    to { transform: rotate(360deg); } /* סיבוב מלא ב-360 מעלות */
+}

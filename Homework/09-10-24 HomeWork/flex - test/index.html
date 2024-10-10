@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid & Flex Layout</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>כותרת העמוד</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">בית</a></li>
+            <li><a href="#">אודות</a></li>
+            <li><a href="#">שירותים</a></li>
+            <li><a href="#">צור קשר</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="images-grid">
+            <img src="assets/pic/puppies.jpg" alt="Puppies" class="wide">
+            <div class="small-images">
+                <img src="assets/pic/logo.webp" alt="Logo">
+                <img src="assets/pic/girl&dog.webp" alt="Girl&dog">
+            </div>
+        </section>
+        <section class="contact-grid">
+            <div class="contact-form">
+                <div class="contact-field">
+                    <label for="name">שם:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="contact-field">
+                    <label for="email">אימייל:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="contact-field">
+                    <label for="message">הודעה:</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 כל הזכויות שמורות</p>
+    </footer>
+</body>
+
+</html>
