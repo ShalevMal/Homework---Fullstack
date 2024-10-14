@@ -1,0 +1,14 @@
+
+.table-hover tbody tr {
+    height: 60px; /* קובע את גובה השורות */
+}
+
+td img {
+    max-height: 100px; 
+    max-width: 100%;   
+    object-fit: contain; 
+}
+
+img {
+    border-radius: 50%; 
+}

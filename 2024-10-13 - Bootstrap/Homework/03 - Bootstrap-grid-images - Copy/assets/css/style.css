@@ -1,0 +1,8 @@
+.img-fluid {
+    margin-bottom: 15px;
+}
+.equal-image {
+    width: 200px;
+    height: 200px; /* גובה קבוע */
+    object-fit: cover; /* מבטיח שהתמונה תכסה את השטח כולו */
+    margin-bottom: 15px; }
